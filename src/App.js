@@ -10,8 +10,8 @@ function App() {
                     <a href="./index.html" ClassName="logo"><strong>Freelancer</strong> Portfolio</a>
                       
                     <button ClassName="dark-mode-btn">
-                        <img src="./images/icons/sun.svg" alt="Light mode" ClassName="dark-mode-btn__icon">
-                        <img src="./images/icons/moon.svg" alt="Dark mode" ClassName="dark-mode-btn__icon">
+                        <img src="./images/icons/sun.svg" alt="Light mode" ClassName="dark-mode-btn__icon" />
+                        <img src="./images/icons/moon.svg" alt="Dark mode" ClassName="dark-mode-btn__icon" />
                     </button>
                       
                     <ul ClassName="nav-list">
@@ -48,30 +48,30 @@ function App() {
                       <ul ClassName="projects">
                           <li ClassName="project">
                               <a href="./project-page.html">
-                                  <img src="./images/projects/01.jpg" alt="Project image" ClassName="project__img" /> 
+                                  <img src="./images/projects/01.jpg" alt="Project img" ClassName="project__img" /> 
                                   <h3 ClassName="project__title">Gaming streaming portal</h3>
                               </a> 
                           </li>
                           <li ClassName="project">
                               <a href="./project-page.html">
-                                  <img src="./images/projects/02.jpg" alt="Project image" ClassName="project__img" /> 
+                                  <img src="./images/projects/02.jpg" alt="Project img" ClassName="project__img" /> 
                                   <h3 ClassName="project__title">Video service</h3>
                               </a> 
                           </li>
                           <li ClassName="project">
-                              <img src="./images/projects/03.jpg" alt="Project image" ClassName="project__img" /> 
+                              <img src="./images/projects/03.jpg" alt="Project img" ClassName="project__img" /> 
                               <h3 ClassName="project__title">Video portal</h3>
                           </li>
                           <li ClassName="project">
-                              <img src="./images/projects/04.jpg" alt="Project image" ClassName="project__img" /> 
+                              <img src="./images/projects/04.jpg" alt="Project img" ClassName="project__img" /> 
                               <h3 ClassName="project__title">Dating app</h3>
                           </li>
                           <li ClassName="project">
-                              <img src="./images/projects/05.jpg" alt="Project image" ClassName="project__img /> 
+                              <img src="./images/projects/05.jpg" alt="Project img" ClassName="project__img" /> 
                               <h3 ClassName="project__title">Landing</h3>
                           </li>
                           <li ClassName="project">
-                              <img src="./images/projects/06.jpg" alt="Project image" ClassName="project__img" /> 
+                              <img src="./images/projects/06.jpg" alt="Project img" ClassName="project__img" /> 
                               <h3 ClassName="project__title">Gaming community</h3>
                           </li>
                       </ul>
