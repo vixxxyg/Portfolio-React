@@ -1,5 +1,12 @@
 import "./styles/main.css";
 
+import sun from "./images/icons/sun.svg";
+import moon from "./images/icons/moon.svg";
+import vk from "./images/icons/vk.svg";
+import instagram from "./images/icons/instagram.svg";
+import twitter from "./images/icons/twitter.svg";
+import gitHub from "./images/icons/gitHub.svg";
+import linkedIn from "./images/icons/linkedIn.svg";
 
 function App() {
   return (
@@ -10,8 +17,8 @@ function App() {
                     <a href="./index.html" className="logo"><strong>Freelancer</strong> Portfolio</a>
                       
                     <button className="dark-mode-btn">
-                        <img src="./images/icons/sun.svg" alt="Light mode" className="dark-mode-btn__icon" />
-                        <img src="./images/icons/moon.svg" alt="Dark mode" className="dark-mode-btn__icon" />
+                        <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
+                        <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
                     </button>
                       
                     <ul className="nav-list">
@@ -82,11 +89,11 @@ function App() {
                   <div className="container">
                       <div className="footer__wrapper">
                           <ul className="social">
-                              <li className="social__item"><a href="#!"><img src="./images/icons/vk.svg" alt="Link" /></a></li>
-                              <li className="social__item"><a href="#!"><img src="./images/icons/instagram.svg" alt="Link" /></a></li>
-                              <li className="social__item"><a href="#!"><img src="./images/icons/twitter.svg" alt="Link" /></a></li>
-                              <li className="social__item"><a href="#!"><img src="./images/icons/gitHub.svg" alt="Link" /></a></li>
-                              <li className="social__item"><a href="#!"><img src="./images/icons/linkedIn.svg" alt="Link" /></a></li>
+                              <li className="social__item"><a href="#!"><img src={vk} alt="Link" /></a></li>
+                              <li className="social__item"><a href="#!"><img src={instagram} /></a></li>
+                              <li className="social__item"><a href="#!"><img src={twitter} /></a></li>
+                              <li className="social__item"><a href="#!"><img src={gitHub} /></a></li>
+                              <li className="social__item"><a href="#!"><img src={linkedIn} /></a></li>
                           </ul>
                           <div className="copyright">
                               <p>© 2024 frontend-dev.com</p>
