@@ -1,16 +1,19 @@
 import "./styles/main.css";
 
-import sun from "./images/icons/sun.svg";
-import moon from "./images/icons/moon.svg";
 import vk from "./images/icons/vk.svg";
 import instagram from "./images/icons/instagram.svg";
 import twitter from "./images/icons/twitter.svg";
 import gitHub from "./images/icons/gitHub.svg";
 import linkedIn from "./images/icons/linkedIn.svg";
 
+import Navbar from "./components/navbar/Navbar.js";
+
 function App() {
   return (
           <div className="App">
+
+            <Navbar />
+            
               <header className="header">
                   <div className="header__wrapper">
                       <h1 className="header__title">
