@@ -1,31 +1,17 @@
 import "./styles/main.css";
 
-import vk from "./images/icons/vk.svg";
-import instagram from "./images/icons/instagram.svg";
-import twitter from "./images/icons/twitter.svg";
-import gitHub from "./images/icons/gitHub.svg";
-import linkedIn from "./images/icons/linkedIn.svg";
-
 import Navbar from "./components/navbar/Navbar.js";
+import Header from "./components/header/Header.js";
+import Footer from "./components/footer/Footer.js";
 
 function App() {
   return (
           <div className="App">
 
             <Navbar />
-            
-              <header className="header">
-                  <div className="header__wrapper">
-                      <h1 className="header__title">
-                          <strong>Hi, my name is <span>Victoria</span></strong><br/>
-                              a frontend developer
-                      </h1>
-                      <div className="header__text">
-                          <p>with passion for learning and creating.</p>
-                      </div>
-                      <a href="#!" className="btn">Download CV</a>
-                  </div>
-              </header>
+            <Header />
+
+              
 
               <main className="section">
                   <div className="container">
@@ -63,22 +49,9 @@ function App() {
                   </div>
               </main>
 
-              <footer className="footer">
-                  <div className="container">
-                      <div className="footer__wrapper">
-                          <ul className="social">
-                              <li className="social__item"><a href="#!"><img src={vk} alt="Link" /></a></li>
-                              <li className="social__item"><a href="#!"><img src={instagram} /></a></li>
-                              <li className="social__item"><a href="#!"><img src={twitter} /></a></li>
-                              <li className="social__item"><a href="#!"><img src={gitHub} /></a></li>
-                              <li className="social__item"><a href="#!"><img src={linkedIn} /></a></li>
-                          </ul>
-                          <div className="copyright">
-                              <p>© 2024 frontend-dev.com</p>
-                          </div>
-                      </div>
-                  </div>
-              </footer>
+              <Footer />
+
+              
               </div>
           );
 }

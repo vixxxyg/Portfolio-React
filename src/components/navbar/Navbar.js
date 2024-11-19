@@ -1,3 +1,4 @@
+import "./styles.css";
 import sun from "./../../images/icons/sun.svg";
 import moon from "./../../images/icons/moon.svg";
 
