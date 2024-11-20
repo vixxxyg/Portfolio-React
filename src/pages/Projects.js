@@ -1,11 +1,20 @@
-import Main from "../components/main/Main";
+import "./../styles/main.css";
+import Project from "../components/project/Project";
+import {projects} from "./../helpers/projectsList";
 
-function Projects () {
+const Projects = () => {
     return ( 
-        <>
-        <Main />
-        </>
-     );
+        <main className="section">
+        <div className="container">
+            <h2 className="title-1">Projects</h2>
+            <ul className="projects">
+                {projects.map((project, index) => {
+                    return <Project key={index} title={project.title} img={project.img} />;
+                })}
+            </ul>
+        </div>
+    </main>
+    );
 }
  
 export default Projects;
