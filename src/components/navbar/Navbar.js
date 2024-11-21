@@ -1,13 +1,17 @@
 import "./styles.css";
 import sun from "./../../images/icons/sun.svg";
 import moon from "./../../images/icons/moon.svg";
+import { NavLink } from "react-router-dom";
 
-function Navbar () {
+const Navbar = () => {
     return (
         <nav className="nav">
             <div className="container">
                 <div className="nav-row">
-                    <a href="./index.html" className="logo"><strong>Freelancer</strong> Portfolio</a>
+                    <NavLink to="/" className="logo">
+                        <strong>Freelancer</strong> Portfolio
+                    </NavLink>
+            
                       
                     <button className="dark-mode-btn">
                         <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
@@ -16,13 +20,28 @@ function Navbar () {
                       
                      <ul className="nav-list">
                         <li className="nav-list__item">
-                            <a href="./index.html" className="nav-list__link nav-list__link--active">Home</a>
+                            <NavLink 
+                                to="/"
+                                className="nav-list__link"
+                            >
+                                Home
+                            </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <a href="./skills.html" className="nav-list__link">Projects</a>
+                            <NavLink 
+                                to="/Projects"
+                                className="nav-list__link"
+                            >
+                                Projects
+                            </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <a href="./contacts.html" className="nav-list__link">Contacts</a>
+                            <NavLink 
+                                to="/Contacts"
+                                className="nav-list__link"
+                            >
+                                Contacts
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
