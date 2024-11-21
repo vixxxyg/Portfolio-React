@@ -1,6 +1,6 @@
 import Projects from "./../pages/Projects.js";
 
-function Home () {
+const Home = () => {
     return ( 
         <>
             <Projects />

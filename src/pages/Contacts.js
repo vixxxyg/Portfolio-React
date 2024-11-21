@@ -1,4 +1,4 @@
-function Contacts () {
+const Contacts = () => {
     return (
         <main className="section">
             <div className="container">

@@ -1,5 +1,5 @@
+import BtnGitHub from "../components/btnGitHub/btnGitHub";
 import img from "./../images/projects/02-big.jpg";
-import gitHubIcon from "./../images/icons/gitHub-black.svg";
 
 const Project = () => {
     return ( 
@@ -11,14 +11,11 @@ const Project = () => {
                     <div className="project-details__description">
                         <p>Skills: React, Node.js, MongoDB</p>
                     </div>
-                    <a href="#!" className="btn-outline">
-                        <img src={gitHubIcon} alt="" />
-                        GitHub repo
-                    </a>
+                    <BtnGitHub link="https://gitHub.com" />
                 </div>
             </div>    
         </main>
-     );
+    );
 }
  
 export default Project;
