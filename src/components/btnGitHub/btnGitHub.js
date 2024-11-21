@@ -3,7 +3,7 @@ import "./styles.css"
 
 const BtnGitHub = ({ link }) => {
     return ( 
-        <a href={link} target="_blank" className="btn-outline">
+        <a href={link} target="_blank" rel="noreferrer" className="btn-outline">
             <img src={gitHubIcon} alt="" />
             GitHub repo
         </a>

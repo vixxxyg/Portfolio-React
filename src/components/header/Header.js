@@ -1,20 +1,20 @@
 import "./styles.css";
 
-function Header () {
+const Header = () => {
     return ( 
         <header className="header">
-                  <div className="header__wrapper">
-                      <h1 className="header__title">
-                          <strong>Hi, my name is <span>Victoria</span></strong><br/>
+            <div className="header__wrapper">
+                <h1 className="header__title">
+                    <strong>Hi, my name is <span>Victoria</span></strong><br/>
                               a frontend developer
-                      </h1>
-                      <div className="header__text">
-                          <p>with passion for learning and creating.</p>
-                      </div>
-                      <a href="#!" className="btn">Download CV</a>
-                  </div>
-              </header>
-     );
+                </h1>
+                <div className="header__text">
+                    <p>with passion for learning and creating.</p>
+                </div>
+                <a href="#!" className="btn">Download CV</a>
+            </div>
+        </header>
+    );
 }
  
 export default Header;
