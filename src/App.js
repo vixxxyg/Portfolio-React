@@ -8,12 +8,14 @@ import Project from "./pages/Project.js";
 import Contacts from "./pages/Contacts.js";
 import Navbar from "./components/navbar/Navbar.js";
 import Footer from "./components/footer/Footer.js";
+import ScrollToTop from "./utils/scrollToTop.js";
 
 
 function App() {
   return (
         <div className="App">
           <Router>
+            <ScrollToTop />
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
